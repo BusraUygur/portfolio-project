@@ -6,8 +6,8 @@ const Navbar = () => {
 	return (
 		<section id="navbar-section">
 			<div className="container-fluid">
-				<nav className="navbar navbar-expand-lg navbar-light">
-					<a className="navbar-brand" href="#Home">
+				<nav className="navbar fixed-top navbar-expand-lg navbar-light">
+					<a className="navbar-brand" href="#navbar-section">
 						Home
 					</a>
 					<button
@@ -25,22 +25,22 @@ const Navbar = () => {
 					<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
 						<ul className="navbar-nav ms-auto">
 							<li className="nav-item active">
-								<a className="nav-link" href="#Skills">
+								<a className="nav-link" href="#skills-section">
 									Skills
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#Projects">
-									Work
+								<a className="nav-link" href="#experience-section">
+									Experience
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#Work">
+								<a className="nav-link" href="#projects-section">
 									Projects
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#Contact">
+								<a className="nav-link" href="#contact-section">
 									Contact
 								</a>
 							</li>

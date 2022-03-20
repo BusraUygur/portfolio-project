@@ -8,13 +8,15 @@ const Header = () => {
 		<section id="header-section">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-6 col-sm-12 header">
+					<div className="col-sm-12 header">
 						<div className="header-texts">
 							<h1 className="big-heading">Hi, I'm Busra,</h1>
 							<h2 className="small-heading">a web developer.</h2>
 							<p className="header-desc">
 								I’m a front-end developer and worked as an automation tester with a keen eye for
-								creating engaging UI, bringing products to life.
+								creating engaging UI, bringing products to life. Worked as an automation tester with a
+								keen eye for creating engaging UI, bringing products to life. Worked as an automation
+								tester with a keen eye for creating engaging UI, bringing products to life.
 							</p>
 						</div>
 						<div className="header-links">
@@ -47,17 +49,9 @@ const Header = () => {
 							</a>
 						</div>
 					</div>
-					<div className="col-lg-6 col-sm-12 header-images">
-						{/* <div className="row">
-							<div className="col-lg-6 img-wrapper">
-								<img className="first-header-img" src="/img/laptop.png" alt="laptop-img" />
-							</div>
-							<div className="col-lg-6 img-wrapper">
-								<img className="sec-header-img" src="/img/coding.png" alt="coding-img" />
-							</div>
-						</div> */}
+					{/* <div className="col-lg-6 col-sm-12 header-images">
 						<img className="sec-header-img" src="/img/me-ss.png" alt="coding-img" />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
