@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
+	const [ isActive, setActive ] = useState(false);
+
+	const handleToggle = () => {
+		setActive(!isActive);
+	};
+
 	return (
 		<section id="navbar-section">
 			<div className="container-fluid">
 				<nav className="navbar fixed-top navbar-expand-lg navbar-light">
-					<a className="navbar-brand" href="#navbar-section">
-						Home
+					<a className="navbar-brand" href="#navbar-section" onSubmit={handleToggle}>
+						BU
 					</a>
 					<button
 						className="navbar-toggler"

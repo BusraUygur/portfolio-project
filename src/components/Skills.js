@@ -10,37 +10,62 @@ const Skills = () => {
 				<div className="row">
 					<h1 className="skills-header col-lg-12">Skills & Tools</h1>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faHtml5} size="6x" color="#e34c26" />
+						<FontAwesomeIcon className="icon" icon={faHtml5} size="4x" />
 						<h3>HTML5</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faCss3Alt} size="6x" color="#2965f1" />
+						<FontAwesomeIcon className="icon" icon={faCss3Alt} size="4x" />
 						<h3>CSS3</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faBootstrap} size="6x" color="#8f61f3" />
+						<FontAwesomeIcon className="icon" icon={faBootstrap} size="4x" />
 						<h3>Bootstrap</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faJs} size="6x" color="#f7df1e" />
+						<FontAwesomeIcon className="icon" icon={faJs} size="4x" />
 						<h3>JavaScript</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faReact} size="6x" color="#61dbfb" />
+						<FontAwesomeIcon className="icon" icon={faReact} size="4x" />
 						<h3>React</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faJava} size="6x" color="#f89820" />
+						<FontAwesomeIcon className="icon" icon={faJava} size="4x" />
 						<h3>Java</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faTerminal} size="6x" />
+						<FontAwesomeIcon className="icon" icon={faTerminal} size="4x" />
 						<h3>Command Line</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon icon={faGithub} size="6x" />
+						<FontAwesomeIcon className="icon" icon={faGithub} size="4x" />
 						<h3>GitHub</h3>
 					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<img className="icon-testing" src="../img/selenium2.png" alt="" />
+						<h3>Selenium</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<img className="icon-testing" src="../img/maven2.png" alt="" /> <h3>Maven</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<img className="icon-testing" src="../img/cucumber2.png" alt="" /> <h3>Cucumber</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<img className="icon-testing" src="../img/testng.png" alt="" /> <h3>TestNG</h3>
+					</div>
+					{/* <div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon icon={faGithub} size="4x" />
+						<h3>Jenkins</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon icon={faGithub} size="4x" />
+						<h3>Splunk</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon icon={faGithub} size="4x" />
+						<h3>Perfecto</h3>
+					</div> */}
 				</div>
 			</div>
 		</section>

@@ -13,10 +13,11 @@ const Header = () => {
 							<h1 className="big-heading">Hi, I'm Busra,</h1>
 							<h2 className="small-heading">a web developer.</h2>
 							<p className="header-desc">
-								I’m a front-end developer and worked as an automation tester with a keen eye for
-								creating engaging UI, bringing products to life. Worked as an automation tester with a
-								keen eye for creating engaging UI, bringing products to life. Worked as an automation
-								tester with a keen eye for creating engaging UI, bringing products to life.
+								I’m a front-end developer located in Portland, Oregon. I am passionate for web
+								development and worked as a software QA tester with a keen eye for creating engaging UI,
+								bringing products to life. Worked as an automation tester with a keen eye for creating
+								engaging UI, bringing products to life. Worked as an automation tester with a keen eye
+								for creating engaging UI, bringing products to life.
 							</p>
 						</div>
 						<div className="header-links">
