@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
+import { faFile, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 	return (
@@ -22,16 +22,16 @@ const Header = () => {
 						</div>
 						<div className="header-links">
 							<a
-								className="btn btn-primary btn-lg btn-floating"
+								className="btn btn-primary btn-lg btn-floating btn-resume"
 								href="#!"
 								target="_blank"
 								rel="noreferrer"
 								role="button"
 							>
-								<FontAwesomeIcon icon={faFile} />
+								<span>View Resume</span>
 							</a>
 							<a
-								className="btn btn-primary btn-lg btn-floating"
+								className="btn btn-primary btn-lg btn-floating btn-links"
 								href="https://github.com/BusraUygur"
 								target="_blank"
 								rel="noreferrer"
@@ -40,7 +40,7 @@ const Header = () => {
 								<FontAwesomeIcon icon={faGithub} />
 							</a>
 							<a
-								className="btn btn-primary btn-lg btn-floating"
+								className="btn btn-primary btn-lg btn-floating btn-links"
 								href="https://www.linkedin.com/"
 								target="_blank"
 								rel="noreferrer"
@@ -50,9 +50,6 @@ const Header = () => {
 							</a>
 						</div>
 					</div>
-					{/* <div className="col-lg-6 col-sm-12 header-images">
-						<img className="sec-header-img" src="/img/me-ss.png" alt="coding-img" />
-					</div> */}
 				</div>
 			</div>
 		</section>

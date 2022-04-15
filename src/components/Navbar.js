@@ -31,22 +31,22 @@ const Navbar = () => {
 					<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
 						<ul className="navbar-nav ms-auto">
 							<li className="nav-item active">
-								<a className="nav-link" href="#skills-section">
+								<a className="nav-link" href="#skills-section" role="button">
 									Skills
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#experience-section">
+								<a className="nav-link" href="#experience-section" role="button">
 									Experience
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#projects-section">
+								<a className="nav-link" href="#projects-section" role="button">
 									Projects
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#contact-section">
+								<a className="nav-link" href="#contact-section" role="button">
 									Contact
 								</a>
 							</li>
