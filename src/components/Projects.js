@@ -39,7 +39,9 @@ const Projects = () => {
 
 							<a
 								className="btn btn-outline-light"
+
 								href="https://busrauygur.github.io/moviewebsite/"
+
 								target="_blank"
 								rel="noreferrer"
 								role="button"
@@ -52,6 +54,7 @@ const Projects = () => {
 						<h4 className="project-name">To Do App</h4>
 						<div className="projects-img-box">
 							<img className="projects-img" src="../img/todo-desktop.png" alt="To Do App Project" />
+
 						</div>
 						<div className="project-icons">
 							<FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
@@ -61,7 +64,9 @@ const Projects = () => {
 						</div>
 						<div className="project-desc">
 							<p>
+
 								Project convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
+
 								arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis duis convallis
 								convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales.
 							</p>
