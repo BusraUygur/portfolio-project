@@ -1,6 +1,3 @@
-### Hi there 👋, Busra Uygur Barut
+# Busra Uygur Barut
 
-I am Busra from Beaverton, Oregon. I am a front-end developer. I enjoy learning new languages and frameworks like JS and React.
-
-## Skills
-HTML / CSS / JS / REACT / BOOTSTRAP 
+I am a front-end developer from Beaverton, Oregon. This portfolio shows my learning and process using HTML / CSS / JS / REACT / BOOTSTRAP.
