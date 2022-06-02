@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFile, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { Document } from 'react-pdf';
 
 const Header = () => {
 	return (
@@ -23,7 +23,7 @@ const Header = () => {
 						<div className="header-links">
 							<a
 								className="btn btn-primary btn-lg btn-floating btn-resume"
-								href="#!"
+								href="./public/newResume2.js"
 								target="_blank"
 								rel="noreferrer"
 								role="button"
@@ -41,7 +41,7 @@ const Header = () => {
 							</a>
 							<a
 								className="btn btn-primary btn-lg btn-floating btn-links"
-								href="https://www.linkedin.com/"
+								href="https://www.linkedin.com/feed/"
 								target="_blank"
 								rel="noreferrer"
 								role="button"
