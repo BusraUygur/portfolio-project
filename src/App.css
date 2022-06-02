@@ -102,6 +102,11 @@ body::-webkit-scrollbar {
 	text-shadow: 0.15rem 0.15rem var(--primary-red);
 }
 
+.big-heading::selection,
+.small-heading::selection {
+	background-color: var(--primary-green);
+}
+
 @media (max-width: 820px) {
 	#header-section {
 		padding-top: 20vh;
@@ -316,14 +321,6 @@ body::-webkit-scrollbar {
 	padding: 0 0.1rem;
 }
 
-.nav-icon {
-	position: absolute;
-	color: var(--primary-green);
-	opacity: 0;
-	margin-left: -15rem;
-	margin-top: 6.5rem;
-}
-
 .project-icons {
 	padding: 1rem 0;
 }
@@ -342,9 +339,10 @@ body::-webkit-scrollbar {
 }
 
 .project-btn a:hover {
+	color: var(--primary-white);
 	background-color: var(--primary-red);
 	border: none;
-	transform: scale(1.06);
+	transform: scale(1.07);
 	transition: all 0.5s ease;
 }
 
