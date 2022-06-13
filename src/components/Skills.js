@@ -1,7 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faJava, faReact, faBootstrap, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal } from '@fortawesome/free-solid-svg-icons';
+import {
+	faHtml5,
+	faCss3Alt,
+	faJs,
+	faJava,
+	faReact,
+	faBootstrap,
+	faGithub,
+	faJenkins
+} from '@fortawesome/free-brands-svg-icons';
+import { faTerminal, faMobile } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
 	return (
@@ -18,41 +27,43 @@ const Skills = () => {
 						<h3>CSS3</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon className="icon" icon={faBootstrap} size="3x" />
-						<h3>Bootstrap</h3>
-					</div>
-					<div className="skills-box col-lg-3 col-sm-6">
 						<FontAwesomeIcon className="icon" icon={faJs} size="3x" />
 						<h3>JavaScript</h3>
-					</div>
-					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon className="icon" icon={faReact} size="3x" />
-						<h3>React</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
 						<FontAwesomeIcon className="icon" icon={faJava} size="3x" />
 						<h3>Java</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon className="icon" icon={faTerminal} size="3x" />
-						<h3>Command Line</h3>
+						<FontAwesomeIcon className="icon" icon={faReact} size="3x" />
+						<h3>React</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<FontAwesomeIcon className="icon" icon={faGithub} size="3x" />
-						<h3>GitHub</h3>
+						<FontAwesomeIcon className="icon" icon={faBootstrap} size="3x" />
+						<h3>Bootstrap</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
 						<img className="icon-testing" src="../img/selenium.png" alt="" />
 						<h3>Selenium</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<img className="icon-testing" src="../img/maven.png" alt="" /> <h3>Maven</h3>
-					</div>
-					<div className="skills-box col-lg-3 col-sm-6">
 						<img className="icon-testing" src="../img/cucumber.png" alt="" /> <h3>Cucumber</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<img className="icon-testing" src="../img/testng.png" alt="" /> <h3>TestNG</h3>
+						<FontAwesomeIcon className="icon" icon={faMobile} size="3x" />
+						<h3>Responsive Design</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon className="icon" icon={faGithub} size="3x" />
+						<h3>GitHub</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon className="icon" icon={faTerminal} size="3x" />
+						<h3>Command Line</h3>
+					</div>
+					<div className="skills-box col-lg-3 col-sm-6">
+						<FontAwesomeIcon className="icon" icon={faJenkins} size="3x" />
+						<h3>Jenkins</h3>
 					</div>
 				</div>
 			</div>

@@ -12,17 +12,15 @@ const Header = () => {
 							<h1 className="big-heading">Hi, I'm Busra,</h1>
 							<h2 className="small-heading">a web developer.</h2>
 							<p className="header-desc">
-								I’m a front-end developer located in Portland, Oregon. I am passionate for web
-								development and worked as a software QA tester with a keen eye for creating engaging UI,
-								bringing products to life. Worked as an automation tester with a keen eye for creating
-								engaging UI, bringing products to life. Worked as an automation tester with a keen eye
-								for creating engaging UI, bringing products to life.
+								I’m a front-end developer located in Portland, Oregon. From testing to designing and
+								developing responsive web pages, I love creating user-friendly websites and applications
+								with a keen eye. I'm excited to continue to build upon my skills with the right company.
 							</p>
 						</div>
 						<div className="header-links">
 							<a
 								className="btn btn-primary btn-lg btn-floating btn-resume"
-								href="./public/newResume2.js"
+								href="https://busrauygur.github.io/resume/"
 								target="_blank"
 								rel="noreferrer"
 								role="button"

@@ -38,8 +38,6 @@ body::-webkit-scrollbar {
 	border-bottom: 0.185rem solid var(--primary-red);
 }
 
-/* Toggler */
-
 .navbar-toggler-icon {
 	color: var(--primary-white);
 }
@@ -56,8 +54,6 @@ body::-webkit-scrollbar {
 	outline: none;
 	box-shadow: none;
 }
-
-/* Menu Links */
 
 .nav-link {
 	font-size: 1.10rem;
@@ -84,15 +80,13 @@ body::-webkit-scrollbar {
 	padding-top: 30vh;
 }
 
-/* Header Texts */
-
 .header-texts {
 	font-family: 'Ubuntu', sans-serif;
 	letter-spacing: 0.5px;
 }
 
 .big-heading {
-	font-size: 60px;
+	font-size: 65px;
 	text-shadow: 0.15rem 0.15rem var(--primary-red);
 }
 
@@ -121,13 +115,11 @@ body::-webkit-scrollbar {
 
 .header-desc {
 	font-family: 'Montserrate', sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	padding-top: 15px;
 	padding-right: 50px;
 	padding-left: 50px;
 }
-
-/* Header Links */
 
 .header-links {
 	padding-top: 1.1rem;
@@ -219,6 +211,10 @@ body::-webkit-scrollbar {
 	.icon-testing {
 		width: 3rem;
 		height: 3rem;
+	}
+	.skills-wrapper {
+		border-radius: none;
+		box-shadow: none;
 	}
 }
 

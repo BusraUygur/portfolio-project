@@ -5,7 +5,7 @@ const Experience = () => {
 		<section id="experience-section">
 			<div className="container experience-wrapper">
 				<div className="d-flex justify-content-center my-5">
-					<h1 className="experience-header">Experience</h1>
+					<h1 className="experience-header">Experience & Relevant Courses</h1>
 				</div>
 				<div className="timeline-block timeline-block-right">
 					<div className="marker" />
@@ -13,8 +13,8 @@ const Experience = () => {
 						<h4>Cydeo - Software Test Automation Course</h4>
 						<h6>October 2017 - June 2018</h6>
 						<p>
-							Cydeo SDET duis convallis convallis tellus id interdum velit laoreet id donec ultrices
-							tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis
+							Northern Virginia’s top-ranked coding school focused on Test Automation using Java.
+							Completed over 1000+ hours of full-time course instruction and projects.
 						</p>
 					</div>
 				</div>
@@ -25,8 +25,8 @@ const Experience = () => {
 						<h5>Automation Tester</h5>
 						<h6>July 2018 - July 2019</h6>
 						<p>
-							Freddie Mac duis convallis convallis tellus id interdum velit laoreet id donec ultrices
-							tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis
+							Used Selenium WebDriver as client library with Java to design, develop and implement page
+							object model (POM) for automated testing in an agile environment.
 						</p>
 					</div>
 				</div>
@@ -37,8 +37,8 @@ const Experience = () => {
 						<h5>QA Automation Tester</h5>
 						<h6>June 2019 - September 2021</h6>
 						<p>
-							Wells Fargo duis convallis convallis tellus id interdum velit laoreet id donec ultrices
-							tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis
+							Owned and managed multiple projects and successfully handled product delivery within a
+							dynamic scrum team with a strong agile mindset.
 						</p>
 					</div>
 				</div>
