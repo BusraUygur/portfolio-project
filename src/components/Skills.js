@@ -43,11 +43,11 @@ const Skills = () => {
 						<h3>Bootstrap</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<img className="icon-testing" src="../img/selenium.png" alt="" />
+						<img className="icon-testing" src="./img/selenium.png" alt="" />
 						<h3>Selenium</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
-						<img className="icon-testing" src="../img/cucumber.png" alt="" /> <h3>Cucumber</h3>
+						<img className="icon-testing" src="./img/cucumber.png" alt="" /> <h3>Cucumber</h3>
 					</div>
 					<div className="skills-box col-lg-3 col-sm-6">
 						<FontAwesomeIcon className="icon" icon={faMobile} size="3x" />
