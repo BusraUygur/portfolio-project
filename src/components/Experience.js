@@ -13,8 +13,8 @@ const Experience = () => {
 						<h4>Cydeo - Software Test Automation Course</h4>
 						<h6>October 2017 - June 2018</h6>
 						<p>
-							Northern Virginia’s top-ranked coding school focused on Test Automation using Java.
-							Completed over 1000+ hours of full-time course instruction and projects.
+							Attended Cydeo coding school focuses on Test Automation using Java. Completed over 1000+
+							hours of full-time course instruction and projects.
 						</p>
 					</div>
 				</div>
@@ -37,20 +37,17 @@ const Experience = () => {
 						<h5>QA Automation Tester</h5>
 						<h6>June 2019 - September 2021</h6>
 						<p>
-							Owned and managed multiple projects and successfully handled product delivery within a
-							dynamic scrum team with a strong agile mindset.
+							Owned and managed multiple projects and successfully handled deliverables within a dynamic
+							scrum team with a strong agile mindset. Implemented automation scripts using Java and OOP.
 						</p>
 					</div>
 				</div>
 				<div className="timeline-block timeline-block-left">
 					<div className="marker" />
 					<div className="timeline-content">
-						<h4>Web Development Course</h4>
+						<h4>Web Development Course - Udemy</h4>
 						<h6>October 2021 - May 2022</h6>
-						<p>
-							Web Development duis convallis convallis tellus id interdum velit laoreet id donec ultrices
-							tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis
-						</p>
+						<p>Built responsive websites using HTML, CSS, JavaScript, React.js, and Bootstrap.</p>
 					</div>
 				</div>
 			</div>

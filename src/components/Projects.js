@@ -20,9 +20,8 @@ const Projects = () => {
 						</div>
 						<div className="project-desc">
 							<p>
-								Duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-								arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis arcu non sodales
-								neque sodales ut etiam sit amet nisl purus in mollis.
+								Designed a movie website with JavaScript and CSS. It manipulates DOM elements to output
+								the app onto an HTML canvas element.
 							</p>
 						</div>
 						<div className="project-btn">
@@ -60,9 +59,8 @@ const Projects = () => {
 						</div>
 						<div className="project-desc">
 							<p>
-								Project convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-								arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis duis convallis
-								convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales.
+								Based on classic To-Do app, this application was created in React.js with CSS allowing
+								user to add and delete notes. Relies on both hooks and the use of objects.
 							</p>
 						</div>
 						<div className="project-btn">

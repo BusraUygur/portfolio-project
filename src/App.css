@@ -263,7 +263,6 @@ body::-webkit-scrollbar {
 	border: 0.2rem solid var(--primary-white);
 	background-color: var(--primary-grey);
 	margin-top: 0.625rem;
-
 	z-index: 3;
 }
 
