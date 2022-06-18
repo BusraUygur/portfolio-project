@@ -10,7 +10,7 @@ const Header = () => {
 					<div className="col-sm-12 header">
 						<div className="header-texts">
 							<h1 className="big-heading">Hi, I'm Busra,</h1>
-							<h2 className="small-heading">a web developer.</h2>
+							<h2 className="small-heading">a front-end developer.</h2>
 							<p className="header-desc">
 								I’m a front-end developer located in Portland, Oregon. I have over 3 years of experience
 								as a QA automation engineer. From testing to designing and developing responsive web
