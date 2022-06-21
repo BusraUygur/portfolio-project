@@ -17,8 +17,7 @@ const Contact = () => {
 			{
 				name: data.name,
 				email: data.email,
-				message: data.message,
-				subject: data.name
+				message: data.message
 			},
 			userID
 		);
