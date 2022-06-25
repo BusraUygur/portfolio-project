@@ -11,7 +11,7 @@ const Projects = () => {
 					<div className="img-box-wrapper col-lg-6 col-sm-12">
 						<h4 className="project-name">Movie Project</h4>
 						<div className="projects-img-box">
-							<img className="projects-img" src="../img/movie-desktop.png" alt="Movie Project" />
+							<img className="projects-img" src="./img/movie-desktop.png" alt="Movie Project" />
 						</div>
 						<div className="project-icons">
 							<FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
@@ -49,7 +49,7 @@ const Projects = () => {
 					<div className="img-box-wrapper col-lg-6 col-sm-12">
 						<h4 className="project-name">To Do App</h4>
 						<div className="projects-img-box">
-							<img className="projects-img" src="../img/todo-desktop.png" alt="To Do App Project" />
+							<img className="projects-img" src="./img/todo-desktop.png" alt="To Do App Project" />
 						</div>
 						<div className="project-icons">
 							<FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
