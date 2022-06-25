@@ -12,9 +12,8 @@ const Header = () => {
 							<h1 className="big-heading">Hi, I'm Busra,</h1>
 							<h2 className="small-heading">a front-end developer.</h2>
 							<p className="header-desc">
-								I’m a front-end developer located in Portland, Oregon. I have over 3 years of experience
-								as a QA automation engineer. From testing to designing and developing responsive web
-								pages, I'm excited to continue to build upon my skills.
+								I’m a front-end developer located in Portland, Oregon. From testing to designing and
+								developing responsive web pages, I'm excited to continue to build upon my skills.
 							</p>
 						</div>
 						<div className="header-links">
