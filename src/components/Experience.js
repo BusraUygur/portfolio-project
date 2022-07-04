@@ -11,7 +11,7 @@ const Experience = () => {
 					<div className="marker" />
 					<div className="timeline-content">
 						<h4>Cydeo - Software Test Automation Course</h4>
-						<h6>October 2017 - June 2018</h6>
+						<h6>November 2017 - June 2018</h6>
 						<p>
 							Attended Cydeo coding school focuses on Test Automation using Java. Completed over 1000+
 							hours of full-time course instruction and projects.
@@ -23,7 +23,7 @@ const Experience = () => {
 					<div className="timeline-content">
 						<h4>Freddie Mac</h4>
 						<h5>Automation Tester</h5>
-						<h6>July 2018 - July 2019</h6>
+						<h6>October 2018 - June 2019</h6>
 						<p>
 							Used Selenium WebDriver as client library with Java to design, develop and implement page
 							object model (POM) for automated testing in an agile environment.
